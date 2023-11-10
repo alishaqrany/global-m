@@ -37,7 +37,7 @@ include_once('includes/header.php');
                     </div>
                 </a>
 
-                <a href="#">
+                <a href="personal.php">
                     <div class="panel-footer">
                         <span class="pull-left">Personal</span>
                         <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -45,7 +45,7 @@ include_once('includes/header.php');
                     </div>
                 </a>
                 
-                <a href="#">
+                <a href="cargo-import.php">
                     <div class="panel-footer">
                         <span class="pull-left">Cargo - Import</span>
                         <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -53,7 +53,7 @@ include_once('includes/header.php');
                     </div>
                 </a>
                 
-                <a href="#">
+                <a href="cargo-export.php">
                     <div class="panel-footer">
                         <span class="pull-left">Cargo - Export</span>
                         <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>

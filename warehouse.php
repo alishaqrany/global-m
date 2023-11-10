@@ -12,8 +12,8 @@ include BASE_PATH . '/includes/header.php';
 <!-- Main container -->
 <div id="page-wrapper">
 <div class="container">
-  <h2>Shipping Form</h2>
-  <form>
+  <h2>warhouse Form</h2>
+  <form action="">
     <div class="form-group">
       <label for="bookingNo">Booking No</label>
       <input type="text" class="form-control" id="bookingNo" placeholder="Enter booking number">
