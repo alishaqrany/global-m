@@ -11,9 +11,16 @@ include BASE_PATH . '/includes/header.php';
 ?>
 <!-- Main container -->
 <div id="page-wrapper">
-<div class="container">
+<div class="container" style="width:100%">
   <h2>warhouse Form</h2>
   <form action="">
+
+  <div class="row flex-row">
+
+<div class="col-lg-4 col-md-6 col-sm-12">
+
+
+
     <div class="form-group">
       <label for="bookingNo">Booking No</label>
       <input type="text" class="form-control" id="bookingNo" placeholder="Enter booking number">
@@ -60,6 +67,18 @@ include BASE_PATH . '/includes/header.php';
       <label for="taxID">TAX ID</label>
       <input type="text" class="form-control" id="taxID" placeholder="Enter tax ID">
     </div>
+
+
+    </div>
+
+
+
+
+
+<div class="col-lg-4 col-md-6 col-sm-12">
+
+
+
     <div class="form-group">
       <label for="tel">Tel</label>
       <input type="text" class="form-control" id="tel" placeholder="Enter telephone number">
@@ -68,6 +87,7 @@ include BASE_PATH . '/includes/header.php';
       <label for="email">Email</label>
       <input type="email" class="form-control" id="email" placeholder="Enter email address">
     </div>
+
     <div class="form-group">
       <label for="buildingName">BUILDING NAME</label>
       <input type="text" class="form-control" id="buildingName" placeholder="Enter building name">
@@ -111,12 +131,79 @@ include BASE_PATH . '/includes/header.php';
       <label for="Weight">Weight</label>
       <input type="email" class="form-control" id="Weight" placeholder="Enter Weight address">
     </div>
+
+
+    
+</div>
+
+
+
+
+
+<div class="col-lg-4 col-md-6 col-sm-12">
+
+
+
     <div class="form-group">
       <label for="remark">remark</label>
       <input type="email" class="form-control" id="remark" placeholder="Enter remark address">
     </div>
 
-    <button type="submit" class="btn btn-primary">Submit</button>
+    <div class="form-group">
+  <label for="freight">Freight</label>
+  <input type="text" class="form-control" id="freight" name="freight" required>
+</div>
+<div class="form-group">
+  <label for="debit">Debit</label>
+  <input type="text" class="form-control" id="debit" name="debit" required>
+</div>
+<div class="form-group">
+  <label for="invoice">Invoice (USD and EGP)</label>
+  <input type="text" class="form-control" id="invoice" name="invoice" required>
+</div>
+<div class="form-group">
+  <label for="paymentDTD">Payment DTD</label>
+  <input type="text" class="form-control" id="paymentDTD" name="paymentDTD" required>
+</div>
+<div class="form-group">
+  <label for="cash">Cash</label>
+  <input type="text" class="form-control" id="cash" name="cash" required>
+</div>
+<div class="form-group">
+  <label for="bank">Bank</label>
+  <input type="text" class="form-control" id="bank" name="bank" required>
+</div>
+<div class="form-group">
+  <label for="otherExpenses">Other expenses (USD and EGP)</label>
+  <input type="text" class="form-control" id="otherExpenses" name="otherExpenses" required>
+</div>
+<div class="form-group">
+  <label for="classified">Classified</label>
+  <input type="text" class="form-control" id="classified" name="classified" required>
+</div>
+<div class="form-group">
+  <label for="remark">Remark</label>
+  <input type="text" class="form-control" id="remark" name="remark" required>
+</div>
+<div class="form-group">
+  <label for="revision">Revision</label>
+  <input type="text" class="form-control" id="revision" name="revision" required>
+</div>
+<div class="form-group">
+  <label for="revisionDTD">Revision DTD</label>
+  <input type="text" class="form-control" id="revisionDTD" name="revisionDTD" required>
+</div>
+
+</div>
+</div>
+
+
+
+<br>
+
+<center><button type="submit" class="btn btn-primary align-center">Submit</button></center>
+<br>
+
   </form>
 </div>
 

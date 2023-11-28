@@ -22,9 +22,14 @@ include BASE_PATH . '/includes/header.php';
 <body> -->
 <!-- Main container -->
 <div id="page-wrapper">
-<div class="container ">
+<div class="container" style="width:100%">
 <h2>Cargo Export </h2>
     <form action="cargo-export.php" method="post">
+
+    <div class="row flex-row">
+
+        <div class="col-lg-4 col-md-6 col-sm-12">
+
 
         <!-- Booking Information Section -->
         <div class="form-group">
@@ -113,6 +118,16 @@ include BASE_PATH . '/includes/header.php';
     <input type="text" class="form-control" id="buildingName" name="buildingName" required>
 </div>
 
+
+</div>
+
+
+
+
+<div class="col-lg-4 col-md-6 col-sm-12">
+
+
+
 <div class="form-group">
     <label for="street">Street:</label>
     <input type="text" class="form-control" id="street" name="street" required>
@@ -192,6 +207,16 @@ include BASE_PATH . '/includes/header.php';
     <label for="weight">Weight:</label>
     <input type="text" class="form-control" id="weight" name="weight" required>
 </div>
+
+
+</div>
+
+
+
+
+
+<div class="col-lg-4 col-md-6 col-sm-12">
+
 
 <div class="form-group">
     <label for="measurement">Measurement:</label>
@@ -273,7 +298,17 @@ include BASE_PATH . '/includes/header.php';
 </div>
 
 
-<button type="submit" class="btn btn-primary">Submit</button>
+</div>
+
+
+</div>
+
+
+<br>
+
+<center><button type="submit" class="btn btn-primary align-center">Submit</button></center>
+<br>
+
 </form>
 </div>
 </div>

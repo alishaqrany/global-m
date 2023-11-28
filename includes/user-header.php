@@ -59,7 +59,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="">Admin</a>
+                        <a class="navbar-brand" href="">user dashboard</a>
                     </div>
                     <!-- /.navbar-header -->
 
@@ -87,7 +87,7 @@
                         <div class="sidebar-nav navbar-collapse">
                             <ul class="nav" id="side-menu">
                                 <li>
-                                    <a href="index.php"><i class="fa fa-dashboard fa-fw"></i>Admin home</a>
+                                    <a href="user.php"><i class="fa fa-dashboard fa-fw"></i>user home</a>
                                 </li>
 
                                 <li <?php echo (CURRENT_PAGE == "customers.php" || CURRENT_PAGE == "add_customer.php") ? 'class="active"' : ''; ?>>

@@ -19,15 +19,28 @@ include BASE_PATH . '/includes/header.php';
   <title>Personal Form</title>
 </head>
 <body> -->
-
+<style>
+  .row{
+    display: flex;
+    flex-warp: warp;
+    justify-content:space-between;
+  }
+  .col{
+    width:50%;
+    flex-basis:33.3%;
+  }
+</style>
 <!-- Main container -->
 <div id="page-wrapper">
 
 
 
-<div class="container">
+<div class="container" style="width:100%">
   <h2>Personal </h2>
   <form action="personal.php" method="post">
+    <div class="row flex-row">
+      <div class="col-lg-4 col-md-6 col-sm-12">
+
     <!-- Personal Fields -->
     <div class="form-group">
       <label for="bookingNo">Booking No</label>
@@ -94,6 +107,12 @@ include BASE_PATH . '/includes/header.php';
   <label for="email">Email</label>
   <input type="text" class="form-control" id="email" name="email" required>
 </div>
+</div>
+
+
+
+
+<div class="col-lg-4 col-md-6 col-sm-12">
 <div class="form-group">
   <label for="buildingName">Building Name</label>
   <input type="text" class="form-control" id="buildingName" name="buildingName" required>
@@ -158,6 +177,12 @@ include BASE_PATH . '/includes/header.php';
   <label for="foreignExpCountry">Foreign exp country</label>
   <input type="text" class="form-control" id="foreignExpCountry" name="foreignExpCountry" required>
 </div>
+</div>
+
+
+
+
+<div class="col-lg-4 col-md-6 col-sm-12">
 <div class="form-group">
   <label for="mV">M/ V</label>
   <input type="text" class="form-control" id="mV" name="mV" required>
@@ -227,8 +252,16 @@ include BASE_PATH . '/includes/header.php';
   <input type="text" class="form-control" id="revisionDTD" name="revisionDTD" required>
 </div>
 <!-- End of personal fields -->
+</div>
+</div>
 
-<button type="submit" class="btn btn-primary">Submit</button>
+
+
+<br>
+
+<center><button type="submit" class="btn btn-primary align-center">Submit</button></center>
+<br>
+
 </form>
 </div>
 
